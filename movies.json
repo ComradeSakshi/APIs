@@ -1,0 +1,261 @@
+//category:trending movies 
+[
+    {
+        "id": 1,
+        "name":"Soul",
+        "category_id":1,
+        "Age":"10+",
+        "image":"https://i.ibb.co/W0LN6h1/poster-8.png",
+        "year":2020,
+        "info":"A jazz musician, stuck in a mediocre job, finally gets his big break. However, when a wrong step takes him to the Great Before, he tries to help an infant soul in order to return to reality."
+    },
+    {
+        "id": 1,
+        "name":"Raya",
+        "category_id":2,
+        "Age":"13+",
+        "image":"https://i.ibb.co/k6bPfv8/poster-9.png",
+        "year":2021,
+        "info":"Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people."
+    },
+    {
+        "id":1,
+        "name":"Luca",
+        "category_id":3,
+        "age":"13+",
+        "image":"https://i.ibb.co/PYZZKSM/poster-10.png",
+        "year":2021,
+        "info":"Luca, a sea monster, befriends Alberto, another one of his kind who takes him on a land adventure. He experiences an exciting summer while keeping his parents in the dark."
+
+    },
+    {
+        "id":1,
+        "name":"Dark Phoenix",
+        "category_id":4,
+        "age":"18+",
+        "image":"https://i.ibb.co/tpwhrpd/poster-12.png",
+        "year":2019,
+        "info":"After a mishap, Jean Grey is struck by a powerful ray of energy which she absorbs into her body, turning her into an uncontrollable liability for the X-Men."
+    },
+
+    {
+        "id":1,
+        "name":"Mulan",
+        "category_id":5,
+        "age":"18+",
+        "image":"https://i.ibb.co/YkhTnQR/poster-2.png",
+        "year":2021,
+        "info":"  A girl disguises as a male warrior and joins the imperial army in order to prevent her sick father from being forced to enlist as he has no male heir."
+    },
+
+
+]
+
+//category movies
+
+[
+    {
+        "id": 2,
+        "name":"Ford v Ferrari",
+        "category_id":1,
+        "Age":"18+",
+        "image":"https://i.ibb.co/L6g66RL/poster-11.png",
+        "year":2019,
+        "info":"Carroll Shelby, an automotive designer, and Ken Miles, a race car driver, join hands to build a trailblazing vehicle and compete against the Ferrari race cars."
+    },
+
+    {
+        "id": 2,
+        "name":"Loki",
+        "category_id":2,
+        "Age":"12+",
+        "image":"https://i.ibb.co/GR74LNM/poster-1.png",
+        "year":2021,
+        "info":"Loki, the God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of Avengers: Endgame."
+    },
+
+    {
+        "id": 2,
+        "name":"Thor",
+        "category_id":3,
+        "Age":"13+",
+        "image":"https://i.ibb.co/Mnb7Mp1/poster-5.png",
+        "year":2011,
+        "info":"The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike. On ScreenIn Comics. Overview."
+    },
+
+    {
+        "id": 2,
+        "name":"Mulan",
+        "category_id":4,
+        "Age":"13+",
+        "image":"https://i.ibb.co/YkhTnQR/poster-2.png",
+        "year":2021,
+        "info":"
+        A girl disguises as a male warrior and joins the imperial army in order to prevent her sick father from being forced to enlist as he has no male heir."
+    },
+
+    {
+        "id": 2,
+        "name":"Raya",
+        "category_id":5,
+        "Age":"13+",
+        "image":"https://i.ibb.co/k6bPfv8/poster-9.png",
+        "year":2021,
+        "info":"
+        Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people."
+    },
+
+
+]
+
+//hollywood movies
+[
+    {
+        "id": 3,
+        "name":"Loki",
+        "category_id":1,
+        "Age":"13+",
+        "image":"https://i.ibb.co/GR74LNM/poster-1.png",
+        "year":2020,
+        "info":"Loki, the God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of Avengers: Endgame."
+        
+    },
+
+    {
+        "id": 3,
+        "name":"Mulan",
+        "category_id":2,
+        "Age":"13+",
+        "image":"https://i.ibb.co/YkhTnQR/poster-2.png",
+        "year":2021,
+        "info":"A girl disguises as a male warrior and joins the imperial army in order to prevent her sick father from being forced to enlist as he has no male heir."
+        
+    },
+
+    {
+        "id": 3,
+        "name":"Avengers",
+        "category_id":3,
+        "Age":"13+",
+        "image":"https://i.ibb.co/NyJPTqR/poster-4.png",
+        "year":2019,
+        "info":"After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance."
+        
+    },
+
+    {
+        "id": 3,
+        "name":"Thor",
+        "category_id":4,
+        "Age":"13+",
+        "image":"https://i.ibb.co/Mnb7Mp1/poster-5.png",
+        "year":2011,
+        "info":"The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike. On ScreenIn Comics. Overview."
+        
+    },
+
+    {
+        "id": 3,
+        "name":"Pirates of Caribbean",
+        "category_id":5,
+        "Age":"13+",
+        "image":"https://i.ibb.co/5WL3zH5/poster-7.png",
+        "year":2017,
+        "info":"Google users
+        To break the curse of Flying Dutchman, Captain Jack Sparrow and Henry Turner embark on a mission to find the Trident of Poseidon. They also try to stop Captain Salazar who intends to rule the seas."
+        
+    },
+
+]
+
+//cartoon movies
+[
+    
+    {
+        "id": 4,
+        "name":"Raya",
+        "category_id":1,
+        "Age":"13+",
+        "image":"https://i.ibb.co/k6bPfv8/poster-9.png",
+        "year":2021,
+        "info":"
+        Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people."
+    },
+
+    {
+        "id":4,
+        "name":"Luca",
+        "category_id":2,
+        "age":"13+",
+        "image":"https://i.ibb.co/PYZZKSM/poster-10.png",
+        "year":2021,
+        "info":"Luca, a sea monster, befriends Alberto, another one of his kind who takes him on a land adventure. He experiences an exciting summer while keeping his parents in the dark."
+
+    },
+
+    {
+        "id": 4,
+        "name":"Soul",
+        "category_id":3,
+        "Age":"10+",
+        "image":"https://i.ibb.co/W0LN6h1/poster-8.png",
+        "year":2020,
+        "info":"A jazz musician, stuck in a mediocre job, finally gets his big break. However, when a wrong step takes him to the Great Before, he tries to help an infant soul in order to return to reality."
+    },
+]
+
+[
+    {
+        "id": 5,
+        "name":"Loki",
+        "category_id":1,
+        "Age":"12+",
+        "image":"https://i.ibb.co/GR74LNM/poster-1.png",
+        "year":2021,
+        "info":"Loki, the God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of Avengers: Endgame."
+    },
+
+    {
+        "id": 5,
+    "name":"Thor",
+    "category_id":2,
+    "Age":"13+",
+    "image":"https://i.ibb.co/Mnb7Mp1/poster-5.png",
+    "year":2011,
+    "info":"The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike. On ScreenIn Comics. Overview."
+},
+
+{
+    "id": 5,
+    "name":"Avengers",
+    "category_id":3,
+    "Age":"13+",
+    "image":"https://i.ibb.co/NyJPTqR/poster-4.png",
+    "year":2019,
+    "info":"After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance."
+    
+},
+
+{
+    "id": 5,
+    "name":"Pirates of Caribbean",
+    "category_id":4,
+    "Age":"13+",
+    "image":"https://i.ibb.co/5WL3zH5/poster-7.png",
+    "year":2017,
+    "info":"Google users
+    To break the curse of Flying Dutchman, Captain Jack Sparrow and Henry Turner embark on a mission to find the Trident of Poseidon. They also try to stop Captain Salazar who intends to rule the seas."
+    
+},
+
+{
+    "id": 5,
+    "name":"Ford v Ferrari",
+    "category_id":5,
+    "Age":"18+",
+    "image":"https://i.ibb.co/L6g66RL/poster-11.png",
+    "year":2019,
+    "info":"Carroll Shelby, an automotive designer, and Ken Miles, a race car driver, join hands to build a trailblazing vehicle and compete against the Ferrari race cars."
+},
+]

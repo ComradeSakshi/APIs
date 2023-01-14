@@ -1,0 +1,27 @@
+//Data of Second project.//
+
+[
+    {
+        "id":1,
+        "category":"Trending movies"
+    },
+    {
+        "id":2,
+        "category":"Movies"
+    },
+    {
+        "id":3,
+        "category":"Hollywood movies"
+    },
+
+    {
+        "id":4,
+        "category":"Cartoon movies"
+    },
+
+    {
+       
+        "id":5,
+        "category":"Action movies" 
+    },
+]
