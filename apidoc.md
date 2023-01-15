@@ -36,4 +36,25 @@ http://localhost:9600/subscription
 
 }
 
+# watchlist
+http://localhost:9600/watchlist    @post
+[
+  
+    "_id": "63c0298822085ca535417046",
+    "id": 7,
+    "name": "Chahatein",
+    "category_id": 11,
+    "Age": "15+",
+    "image": "https://ibb.co/ZXDT7wx",
+    "year": 2020,
+    "info": "Preesha's life revolves around her son Saaransh, while Rudraksh is an insensitive rockstar. When an unfortunate event brings these two strangers at a crossroad, there might be a new beginning for them."
+  }
+]
 
+http://localhost:9600/serial       >get
+
+# delete watchlist
+http://localhost:9600/deletewatchlist/"_id": "63c3a11ea06857180bee5645"    @delete
+
+
+mongodb://localhost:27017

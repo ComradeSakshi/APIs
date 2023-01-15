@@ -1,4 +1,3 @@
-
 let express = require('express');
 let app = express();
 let port = 9600;
@@ -6,9 +5,8 @@ let cors = require('cors');
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
 let bodyParser = require('body-parser');
-let mongoUrl = "mongodb://localhost:27017";
+let mongoUrl = "mongodb+srv://comrade-sakshi:<sakshi>@cluster0.x852hi4.mongodb.net/?retryWrites=true&w=majority";
 let db;
-
 // middleware
 app.use(cors())
 app.use(bodyParser.json())
@@ -72,6 +70,16 @@ app.get('/hollywood',(req,res) => {
     })
  })
 
+
+ app.get('/login',(req,res) => {
+    db.collection('login').find().toArray((err,result) => {
+        if(err) throw err;
+        res.send(result)
+    })
+ })
+
+
+ // subscription update
  app.post('/subscription',(req,res) => {
     db.collection('subscription').insert(req.body,(err,result) => {
         if(err) throw err;
@@ -92,11 +100,49 @@ app.get('/subscribed',(req,res) => {
     })
 })
 
+
+
+//login update
+app.put('/login/:id',(req,res) => {
+    let lid = Number(req.params.id);
+    db.collection('login').updateOne(
+        {loginid:lid},
+        {
+            $set:{
+                "status":req.body.status,
+                "bank_name":req.body.bank_name,
+                "date":req.body.date
+            }
+        },(err,result) =>{
+            if(err) throw err;
+            res.send('Logined successfully.')
+        }
+    )
+})
+// watchlist
+app.post('/watchlist',(req,res) => {
+    db.collection('serial').insert(req.body,(err,result) => {
+        if(err) throw err;
+        res.send('Added')
+    })
+})
+
+//delete watchlist
+app.delete('/deletewatchlist/:_id',(req,res) => {
+    let _id = mongo.ObjectId(req.params.id);
+    db.collection('serial').remove({_id},(err,result) => {
+        if(err) throw err;
+        res.send('Watchlist Deleted')
+    })
+})
+
+
 // connect with mongodb
-MongoClient.connect(mongoUrl,{useNewUrlParser:true},(err,dc) => {
+MongoClient.connect(mongoUrl,{useNewUrlParser:true},(err,code) => {
     if(err) console.log('Error while connecting');
-    db = dc.db('movies');
+    db = code.db('movies');
     app.listen(port,() => {
         console.log(`Server is running on port ${port}`)
     })
 })
+
